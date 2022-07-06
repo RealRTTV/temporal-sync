@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.rttv.temporal.sync.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LevelPropertiesMixin"
+  ],
+  "client": [
+    "ClientWorldPropertiesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
